@@ -784,12 +784,15 @@ span {
     margin-top: 1rem;
   }
 
+
+   .navbar a {
+    margin-left: 2rem;
   }
   .navbar {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 30%;
+        width: 50%;
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         border-bottom-left-radius: 2rem;
@@ -830,34 +833,10 @@ span {
     .skill-info p {
         font-size: 1.2rem;
     }
+}
 
 
 @media (max-width: 425px) {
-
-  .navbar {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 25%;
-        padding: 1rem 3%;
-        background: rgba(0, 0, 0, 0.8);
-        border-bottom-left-radius: 2rem;
-        border-left: 2px solid var(--main-color);
-        border-bottom: 2px solid var(--main-color);
-        display: none;
-    }
-
-    .navbar.active {
-        display: block;
-    }
-
-    .navbar a {
-        display: block;
-        font-size: 1.5rem;
-        margin: 2rem;
-        color: #fff;
-    }
-
     .home-content h3 {
         font-size: 2.5rem;
     }
