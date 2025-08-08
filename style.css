@@ -544,7 +544,7 @@ span {
   background-color: var(--second-bg-color);
   color: white;
   border-radius: 8px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   border: 3px solid goldenrod;
   box-shadow: 0 0 15px var(--main-color);
@@ -572,6 +572,7 @@ span {
 .contact h2 {
   font-size: 5rem;
   margin-bottom: 3rem;
+  margin-top: 7.5rem;
   text-align: center;
 }
 .contact form {
@@ -1352,6 +1353,7 @@ span {
 .home-img img {
   position: relative;
   top: 4rem;
+  left: 1rem;
   width: 24vw;
   height: 24vw;
   object-fit: cover;
@@ -1482,6 +1484,7 @@ span {
 }
 .about h2 {
   margin-bottom: 3rem;
+  margin-top: 8rem;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -1533,7 +1536,8 @@ span {
 .projects .heading {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 7rem;
 }
 .project-item:hover {
   border: 3px solid var(--main-color);
@@ -1583,7 +1587,7 @@ span {
 
 .skills h2 {
   margin-bottom: 3rem;
-  margin-top: -13rem;
+  margin-top: -5rem;
   text-align: center;
   font-size: 2.5rem;
 }
@@ -1625,7 +1629,6 @@ span {
   display: none;
 }
 
-
   /* new jasa */
 
   .jasas-container {
@@ -1645,7 +1648,8 @@ span {
 
 .jasas .heading {
   font-size: 2.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 7.5rem;
   color: var(--text-color);
 }
 
@@ -1715,8 +1719,6 @@ span {
     padding: 1rem 1.5rem;
   }
   
-  
-
   .footer {
   width: 100%;
   padding: 6px 0;
